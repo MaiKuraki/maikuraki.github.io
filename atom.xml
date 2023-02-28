@@ -8,7 +8,7 @@
         <id>https://maikuraki.github.io/2023/02/28/Unity_Game_Build_Pipeline_with_TeamCity/</id>
         <title>Unity 游戏自动化打包教程【TeamCity】</title>
         <link rel="alternate" href="https://maikuraki.github.io/2023/02/28/Unity_Game_Build_Pipeline_with_TeamCity/"/>
-        <content type="html">&lt;pre&gt;&lt;code&gt;概要: 本文目的在于为我们在日常的 Unity 开发过程中标准化构建游戏的发行版本。
+        <content type="html">&lt;pre&gt;&lt;code&gt;本文目的在于为我们在日常的 Unity 开发过程中标准化构建游戏的发行版本。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;software-environment-本文所需的系统平台及软件环境&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#software-environment-本文所需的系统平台及软件环境&#34;&gt;#&lt;/a&gt; Software Environment 本文所需的系统平台及软件环境&lt;/h2&gt;
 &lt;ul&gt;
