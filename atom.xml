@@ -168,7 +168,7 @@
 输入命令  &lt;code&gt;./agent.bat start&lt;/code&gt;  启动 TeamCity Agent&lt;br/&gt;&lt;br&gt;
 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/maikuraki/jsdelivr@v0.0.2/docimg/UnityBuildPipelineTutorial/tutorial_34.png&#34; alt=&#34;Tutorial_34&#34;&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ ./agent.bat start&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;在-teamcity-server-中完成项目配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#在-teamcity-server-中完成项目配置&#34;&gt;#&lt;/a&gt; 在 TeamCity Server 中完成项目配置&lt;/h2&gt;
-&lt;h3 id=&#34;注册并启动-agent&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注册并启动-agent&#34;&gt;#&lt;/a&gt; 注册并启动 Agent&lt;/h3&gt;
+&lt;h3 id=&#34;注册并启用-agent&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#注册并启用-agent&#34;&gt;#&lt;/a&gt; 注册并启用 Agent&lt;/h3&gt;
 &lt;p&gt;浏览器访问  &lt;code&gt;http://localhost:8003&lt;/code&gt;  访问  &lt;code&gt;[Agents]&lt;/code&gt;  -&amp;gt;  &lt;code&gt;[Unauthorized]&lt;/code&gt;  在右侧分别点击  &lt;code&gt;[Authorize]&lt;/code&gt;  与  &lt;code&gt;[Enable]&lt;/code&gt;  来注册和启动打包机&lt;br/&gt;&lt;br&gt;
 &lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/maikuraki/jsdelivr@v0.0.2/docimg/UnityBuildPipelineTutorial/tutorial_37.png&#34; alt=&#34;Tutorial_37&#34;&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;h3 id=&#34;开始打包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#开始打包&#34;&gt;#&lt;/a&gt; 开始打包&lt;/h3&gt;
