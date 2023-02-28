@@ -8,9 +8,9 @@
         <pubDate>Tue, 28 Feb 2023 20:17:17 +0800</pubDate>
         <lastBuildDate>Tue, 28 Feb 2023 20:17:17 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://maikuraki.github.io/2023/02/28/Unity%20Game%20Build%20Pipeline%20with%20TeamCity/</guid>
+            <guid isPermalink="true">https://maikuraki.github.io/2023/02/28/Unity_Game_Build_Pipeline_with_TeamCity/</guid>
             <title>Unity 游戏自动化打包教程【TeamCity】</title>
-            <link>https://maikuraki.github.io/2023/02/28/Unity%20Game%20Build%20Pipeline%20with%20TeamCity/</link>
+            <link>https://maikuraki.github.io/2023/02/28/Unity_Game_Build_Pipeline_with_TeamCity/</link>
             <pubDate>Tue, 28 Feb 2023 20:17:17 +0800</pubDate>
             <description><![CDATA[ &lt;pre&gt;&lt;code&gt;概要: 本文目的在于为我们在日常的 Unity 开发过程中标准化构建游戏的发行版本。
 &lt;/code&gt;&lt;/pre&gt;
