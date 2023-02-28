@@ -5,8 +5,24 @@
         <link>https://maikuraki.github.io</link>
         <description></description>
         <language>en</language>
-        <pubDate>Tue, 28 Feb 2023 20:17:17 +0800</pubDate>
-        <lastBuildDate>Tue, 28 Feb 2023 20:17:17 +0800</lastBuildDate>
+        <pubDate>Tue, 28 Feb 2023 23:58:26 +0800</pubDate>
+        <lastBuildDate>Tue, 28 Feb 2023 23:58:26 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://maikuraki.github.io/2023/02/28/GameJamLog/</guid>
+            <title>Game Jam 记录</title>
+            <link>https://maikuraki.github.io/2023/02/28/GameJamLog/</link>
+            <pubDate>Tue, 28 Feb 2023 23:58:26 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code&gt;本文是作者的 GameJam 记录
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;2021&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2021&#34;&gt;#&lt;/a&gt; 2021&lt;/h2&gt;
+&lt;h3 id=&#34;studio-internal-公司内部&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#studio-internal-公司内部&#34;&gt;#&lt;/a&gt; Studio-Internal (公司内部)&lt;/h3&gt;
+&lt;div style=&#34;padding:56.25% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/803142386?h=b3329a1ea1&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;GreenGameJam.mp4&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
+&lt;h3 id=&#34;ciga-gamejam&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ciga-gamejam&#34;&gt;#&lt;/a&gt; CIGA GameJam&lt;/h3&gt;
+&lt;div style=&#34;padding:75% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/803150021?h=d5e13086ca&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;Jam21S2.mp4&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
+&lt;h2 id=&#34;2019-~-2021-globalgamejam&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2019-~-2021-globalgamejam&#34;&gt;#&lt;/a&gt; 2019 ~ 2021 GlobalGameJam&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9nbG9iYWxnYW1lamFtLm9yZy91c2Vycy8lRTYlOTclOEIlRTklQTMlOEUlRTUlODYlQjIlRTklOTQlOEI=&#34;&gt;https://globalgamejam.org/users/ 旋风冲锋&lt;/span&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://maikuraki.github.io/2023/02/28/Unity_Game_Build_Pipeline_with_TeamCity/</guid>
             <title>Unity 游戏自动化打包教程【TeamCity】</title>
