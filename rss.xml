@@ -10,8 +10,112 @@
         </author>
         <description></description>
         <language>en</language>
-        <pubDate>Sun, 06 Oct 2024 04:43:59 +0800</pubDate>
-        <lastBuildDate>Sun, 06 Oct 2024 04:43:59 +0800</lastBuildDate>
+        <pubDate>Mon, 07 Oct 2024 01:22:16 +0800</pubDate>
+        <lastBuildDate>Mon, 07 Oct 2024 01:22:16 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">http://example.com/2024/10/07/Unity_WebGL_Demo/</guid>
+            <title>Unity WebGL Demo</title>
+            <link>http://example.com/2024/10/07/Unity_WebGL_Demo/</link>
+            <pubDate>Mon, 07 Oct 2024 01:22:16 +0800</pubDate>
+            <description><![CDATA[ &lt;pre&gt;&lt;code&gt;本文是 Hexo 嵌入 Unity WebGL 的测试
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;gameplay&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gameplay&#34;&gt;#&lt;/a&gt; Gameplay&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Control
+&lt;ul&gt;
+&lt;li&gt;Keyborad&lt;pre&gt;&lt;code&gt;Movement:   W / A / D
+Jump:       K
+Attack:     J
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;Gamepad&lt;pre&gt;&lt;code&gt;Movement:   Left Joystick
+Jump:       A (XBox)
+Attack:     Y (XBox)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;style&gt;
+      .unity-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+      }
+      #unity-container {
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        position: relative;
+      }
+      #unity-canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #231F20;
+      }
+    &lt;/style&gt;
+    &lt;div class=&#34;unity-wrapper&#34;&gt;
+      &lt;div id=&#34;unity-container&#34;&gt;
+        &lt;canvas id=&#34;unity-canvas&#34; tabindex=&#34;-1&#34;&gt;&lt;/canvas&gt;
+      &lt;/div&gt;
+      &lt;script src=&#34;/game/CMRPG/Build/cmrpg.loader.js&#34;&gt;&lt;/script&gt;
+      &lt;script&gt;
+        function resizeCanvas() {
+          var canvas = document.querySelector(&#34;#unity-canvas&#34;);
+          var container = document.querySelector(&#34;#unity-container&#34;);
+
+          var containerWidth = container.clientWidth;
+          var containerHeight = container.clientHeight;
+          var aspectRatio = 16 / 9;
+
+          if (containerWidth / containerHeight &gt; aspectRatio) {
+            canvas.style.width = (containerHeight * aspectRatio) + &#39;px&#39;;
+            canvas.style.height = containerHeight + &#39;px&#39;;
+          } else {
+            canvas.style.width = containerWidth + &#39;px&#39;;
+            canvas.style.height = (containerWidth / aspectRatio) + &#39;px&#39;;
+          }
+        }
+
+        function loadUnity() {
+          createUnityInstance(document.querySelector(&#34;#unity-canvas&#34;), {
+            dataUrl: &#34;/game/CMRPG/Build/cmrpg.data&#34;,
+            frameworkUrl: &#34;/game/CMRPG/Build/cmrpg.framework.js&#34;,
+            codeUrl: &#34;/game/CMRPG/Build/cmrpg.wasm&#34;,
+            streamingAssetsUrl: &#34;/game/CMRPG/StreamingAssets&#34;,
+            companyName: &#34;&#34;,
+            productName: &#34;&#34;,
+            productVersion: &#34;1.0.0&#34;,
+          }).then((unityInstance) =&gt; {
+            console.log(&#34;Unity loaded successfully.&#34;);
+          }).catch((message) =&gt; {
+            console.error(message);
+          });
+        }
+
+        function checkLoader() {
+          if (typeof createUnityInstance === &#39;function&#39;) {
+            loadUnity();
+          } else {
+            setTimeout(checkLoader, 30);
+          }
+        }
+
+        resizeCanvas();
+        window.addEventListener(&#39;resize&#39;, resizeCanvas);
+        document.addEventListener(&#34;DOMContentLoaded&#34;, checkLoader);
+      &lt;/script&gt;
+    &lt;/div&gt;
+  
+&lt;h2 id=&#34;opensourceurl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opensourceurl&#34;&gt;#&lt;/a&gt; OpenSourceURL&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;https://github.com/MaiKuraki/UnityGameplayAbilitySystemSample
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">http://example.com/2024/10/06/Game_Jam_Log/</guid>
             <title>Game Jam 记录</title>
