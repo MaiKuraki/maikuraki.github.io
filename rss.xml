@@ -40,11 +40,11 @@
         margin: 0 auto;
         position: relative;
       }
-      
+
       #tuanjie-container {
         width: 100%;
         height: 0;
-        padding-bottom: 56.25%; /* 默认 16:9 比例 */
+        padding-bottom: 62.5%; /* 默认 16:10 比例 */
         position: relative;
       }
 
@@ -89,11 +89,6 @@
         display: none;
       }
 
-      #tuanjie-footer {
-        text-align: center;
-        margin-top: 10px;
-        font-size: 12px;
-      }
     &lt;/style&gt;
     &lt;div class=&#34;tuanjie-wrapper&#34;&gt;
       &lt;div id=&#34;tuanjie-container&#34;&gt;
@@ -102,11 +97,6 @@
           &lt;div id=&#34;tuanjie-progress-bar-full&#34;&gt;&lt;/div&gt;
         &lt;/div&gt;
         &lt;div id=&#34;tuanjie-warning&#34;&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div id=&#34;tuanjie-footer&#34;&gt;
-        &lt;div id=&#34;tuanjie-webgl-logo&#34;&gt;&lt;/div&gt;
-        &lt;div id=&#34;tuanjie-fullscreen-button&#34;&gt;Fullscreen&lt;/div&gt;
-        &lt;div id=&#34;tuanjie-build-title&#34;&gt;SteamCity&lt;/div&gt;
       &lt;/div&gt;
       &lt;script&gt;
         function loadScript(src) {
@@ -117,6 +107,23 @@
             script.onerror = () =&gt; reject(new Error(`Failed to load script ${src}`));
             document.head.appendChild(script);
           });
+        }
+        
+        function resizeCanvas() {
+          var canvas = document.querySelector(&#34;#unity-canvas&#34;);
+          var container = document.querySelector(&#34;#unity-container&#34;);
+
+          var containerWidth = container.clientWidth;
+          var containerHeight = container.clientHeight;
+          var aspectRatio = 16 / 9;
+
+          if (containerWidth / containerHeight &gt; aspectRatio) {
+            canvas.style.width = (containerHeight * aspectRatio) + &#39;px&#39;;
+            canvas.style.height = containerHeight + &#39;px&#39;;
+          } else {
+            canvas.style.width = containerWidth + &#39;px&#39;;
+            canvas.style.height = (containerWidth / aspectRatio) + &#39;px&#39;;
+          }
         }
 
         function showBanner(msg, type) {
@@ -136,13 +143,12 @@
         async function loadTuanjie() {
           const canvas = document.querySelector(&#34;#tuanjie-canvas&#34;);
           const progressBarFull = document.querySelector(&#34;#tuanjie-progress-bar-full&#34;);
-          const fullscreenButton = document.querySelector(&#34;#tuanjie-fullscreen-button&#34;);
           const loadingBar = document.querySelector(&#34;#tuanjie-loading-bar&#34;);
 
           const config = {
-            dataUrl: &#34;/game/SteamCity/Build/SteamCity.data.br&#34;,
-            frameworkUrl: &#34;/game/SteamCity/Build/SteamCity.framework.js.br&#34;,
-            codeUrl: &#34;/game/SteamCity/Build/SteamCity.wasm.br&#34;,
+            dataUrl: &#34;/game/SteamCity/Build/SteamCity.data&#34;,
+            frameworkUrl: &#34;/game/SteamCity/Build/SteamCity.framework.js&#34;,
+            codeUrl: &#34;/game/SteamCity/Build/SteamCity.wasm&#34;,
             streamingAssetsUrl: &#34;/game/SteamCity/StreamingAssets&#34;,
             companyName: &#34;TeamMysteriousSix&#34;,
             productName: &#34;SteamCity&#34;,
@@ -151,13 +157,15 @@
           };
 
           try {
+            // 加载 Unity loader 脚本
             await loadScript(&#34;/game/SteamCity/Build/SteamCity.loader.js&#34;);
             console.log(&#34;SteamCity loader script loaded.&#34;);
+
+            // 创建 Unity 实例
             createTuanjieInstance(canvas, config, (progress) =&gt; {
               progressBarFull.style.width = (progress * 100) + &#34;%&#34;;
             }).then((tuanjieInstance) =&gt; {
               loadingBar.style.display = &#34;none&#34;;
-              fullscreenButton.onclick = () =&gt; tuanjieInstance.SetFullscreen(1);
               console.log(&#34;Tuanjie loaded successfully.&#34;);
             }).catch((error) =&gt; {
               showBanner(&#34;Error: &#34; + error, &#34;error&#34;);
@@ -169,7 +177,13 @@
           }
         }
 
+        // 加载 Unity 项目
         loadTuanjie();
+        resizeCanvas();
+
+        window.addEventListener(&#34;load&#34;, loadTuanjie); // Use window.onload instead of DOMContentLoaded
+        window.addEventListener(&#39;resize&#39;, resizeCanvas);
+        
       &lt;/script&gt;
     &lt;/div&gt;
    ]]></description>
