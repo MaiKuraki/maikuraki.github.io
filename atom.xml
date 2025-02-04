@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://example.com</id>
+    <id>https://maikuraki.github.io</id>
     <title>Cyclone Dimension</title>
     <subtitle></subtitle>
-    <icon>http://example.com/assets/favicon.ico</icon>
-    <link href="http://example.com" />
+    <icon>https://maikuraki.github.io/assets/favicon.ico</icon>
+    <link href="https://maikuraki.github.io" />
     <author>
       <name>Cyclone</name>
     </author>
     <updated>2024-10-07T15:11:21.659Z</updated>
     <entry>
-        <id>http://example.com/2024/10/07/Unity_WebGL_Demo/</id>
+        <id>https://maikuraki.github.io/2024/10/07/Unity_WebGL_Demo/</id>
         <title>Unity WebGL Demo</title>
-        <link rel="alternate" href="http://example.com/2024/10/07/Unity_WebGL_Demo/"/>
+        <link rel="alternate" href="https://maikuraki.github.io/2024/10/07/Unity_WebGL_Demo/"/>
         <content type="html">&lt;pre&gt;&lt;code&gt;本文是 Hexo 嵌入 Unity WebGL 的测试
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;gameplay&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gameplay&#34;&gt;#&lt;/a&gt; Gameplay&lt;/h2&gt;
@@ -35,7 +35,7 @@ Attack:     Y (XBox)
 &lt;blockquote&gt;
 &lt;p&gt;如果以下游戏窗口长时间显示黑屏可能需要 &lt;strong&gt;刷新浏览器&lt;/strong&gt; 页面来确保游戏正常显示&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;
+
     &lt;style&gt;
       .unity-wrapper {
         width: 100%;
@@ -135,7 +135,7 @@ Attack:     Y (XBox)
         window.addEventListener(&#34;load&#34;, initUnity); // Use window.onload instead of DOMContentLoaded
       &lt;/script&gt;
     &lt;/div&gt;
-  &lt;/p&gt;
+  
 &lt;h2 id=&#34;opensourceurl&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opensourceurl&#34;&gt;#&lt;/a&gt; OpenSourceURL&lt;/h2&gt;
 &lt;pre&gt;&lt;code&gt;https://github.com/MaiKuraki/UnityGameplayAbilitySystemSample
 &lt;/code&gt;&lt;/pre&gt;
@@ -143,9 +143,9 @@ Attack:     Y (XBox)
         <updated>2024-10-07T15:11:21.659Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/10/07/Unity_Game_Build_Pipeline_with_TeamCity/</id>
+        <id>https://maikuraki.github.io/2024/10/07/Unity_Game_Build_Pipeline_with_TeamCity/</id>
         <title>Unity 游戏自动化打包教程【TeamCity】</title>
-        <link rel="alternate" href="http://example.com/2024/10/07/Unity_Game_Build_Pipeline_with_TeamCity/"/>
+        <link rel="alternate" href="https://maikuraki.github.io/2024/10/07/Unity_Game_Build_Pipeline_with_TeamCity/"/>
         <content type="html">&lt;pre&gt;&lt;code&gt;本文目的在于为我们在日常的 Unity 开发过程中标准化构建游戏的发行版本。文章撰写于 2023.2 截至 2024.10 依旧有效，其中涉及到的软件版本均可使用 2024 最新版。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;software-environment-本文所需的系统平台及软件环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#software-environment-本文所需的系统平台及软件环境&#34;&gt;#&lt;/a&gt; Software Environment 本文所需的系统平台及软件环境&lt;/h2&gt;
@@ -334,9 +334,9 @@ Attack:     Y (XBox)
         <updated>2024-10-07T12:35:14.128Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/10/07/hello-world/</id>
+        <id>https://maikuraki.github.io/2024/10/07/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://example.com/2024/10/07/hello-world/"/>
+        <link rel="alternate" href="https://maikuraki.github.io/2024/10/07/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
@@ -351,9 +351,9 @@ Attack:     Y (XBox)
         <updated>2024-10-06T17:30:38.003Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/10/06/Clean_Linux/</id>
+        <id>https://maikuraki.github.io/2024/10/06/Clean_Linux/</id>
         <title>清理 Linux 磁盘</title>
-        <link rel="alternate" href="http://example.com/2024/10/06/Clean_Linux/"/>
+        <link rel="alternate" href="https://maikuraki.github.io/2024/10/06/Clean_Linux/"/>
         <content type="html">&lt;pre&gt;&lt;code&gt;由于作者购买的 VPS 硬盘太小经常由于磁盘爆满报错，发现长时间运行 Linux 会记录太多时间过于久远的日志。本文以 debian / archlinux 以及 systemd 系的通用 linux 命令为例，记录整理一些可以删除的较大日志文件。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;检查磁盘空间&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#检查磁盘空间&#34;&gt;#&lt;/a&gt; 检查磁盘空间&lt;/h2&gt;
@@ -424,20 +424,20 @@ Attack:     Y (XBox)
         <updated>2024-10-05T21:18:18.749Z</updated>
     </entry>
     <entry>
-        <id>http://example.com/2024/10/06/Game_Jam_Log/</id>
+        <id>https://maikuraki.github.io/2024/10/06/Game_Jam_Log/</id>
         <title>Game Jam 记录</title>
-        <link rel="alternate" href="http://example.com/2024/10/06/Game_Jam_Log/"/>
+        <link rel="alternate" href="https://maikuraki.github.io/2024/10/06/Game_Jam_Log/"/>
         <content type="html">&lt;pre&gt;&lt;code&gt;本文是作者的 GameJam 记录。Video 来自 Vimeo，中国大陆可能需要翻墙访问。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;2021&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2021&#34;&gt;#&lt;/a&gt; 2021&lt;/h2&gt;
 &lt;h3 id=&#34;studio-internal-公司内部&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#studio-internal-公司内部&#34;&gt;#&lt;/a&gt; Studio-Internal (公司内部)&lt;/h3&gt;
-&lt;p&gt;&amp;lt;div style=&amp;quot;padding:56.25% 0 0 0;position:relative;&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/video/803142386?h=b3329a1ea1&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&#34;&gt;https://player.vimeo.com/video/803142386?h=b3329a1ea1&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&lt;/a&gt;&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; fullscreen; picture-in-picture&amp;quot; allowfullscreen style=&amp;quot;position:absolute;top:0;left:0;width:100%;height:100%;&amp;quot; title=&amp;quot;GreenGameJam.mp4&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/api/player.js&#34;&gt;https://player.vimeo.com/api/player.js&lt;/a&gt;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
+&lt;div style=&#34;padding:56.25% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/803142386?h=b3329a1ea1&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;GreenGameJam.mp4&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;ciga-gamejam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ciga-gamejam&#34;&gt;#&lt;/a&gt; CIGA GameJam&lt;/h3&gt;
-&lt;p&gt;&amp;lt;div style=&amp;quot;padding:75% 0 0 0;position:relative;&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/video/803150021?h=d5e13086ca&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&#34;&gt;https://player.vimeo.com/video/803150021?h=d5e13086ca&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&lt;/a&gt;&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; fullscreen; picture-in-picture&amp;quot; allowfullscreen style=&amp;quot;position:absolute;top:0;left:0;width:100%;height:100%;&amp;quot; title=&amp;quot;Jam21S2.mp4&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/api/player.js&#34;&gt;https://player.vimeo.com/api/player.js&lt;/a&gt;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
+&lt;div style=&#34;padding:75% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/803150021?h=d5e13086ca&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;Jam21S2.mp4&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;2021-global-game-jam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2021-global-game-jam&#34;&gt;#&lt;/a&gt; 2021 Global Game Jam&lt;/h3&gt;
-&lt;p&gt;&amp;lt;div style=&amp;quot;padding:56.25% 0 0 0;position:relative;&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/video/827769293?h=6ec5dd84d2&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&#34;&gt;https://player.vimeo.com/video/827769293?h=6ec5dd84d2&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&lt;/a&gt;&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; fullscreen; picture-in-picture&amp;quot; allowfullscreen style=&amp;quot;position:absolute;top:0;left:0;width:100%;height:100%;&amp;quot; title=&amp;quot;Jam21S1&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/api/player.js&#34;&gt;https://player.vimeo.com/api/player.js&lt;/a&gt;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
+&lt;div style=&#34;padding:56.25% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/827769293?h=6ec5dd84d2&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;Jam21S1&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
 &lt;h3 id=&#34;2019-global-game-jam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2019-global-game-jam&#34;&gt;#&lt;/a&gt; 2019 Global Game Jam&lt;/h3&gt;
-&lt;p&gt;&amp;lt;div style=&amp;quot;padding:56.25% 0 0 0;position:relative;&amp;quot;&amp;gt;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/video/827768385?h=5eedee871a&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&#34;&gt;https://player.vimeo.com/video/827768385?h=5eedee871a&amp;amp;amp;badge=0&amp;amp;amp;autopause=0&amp;amp;amp;player_id=0&amp;amp;amp;app_id=58479&lt;/a&gt;&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;autoplay; fullscreen; picture-in-picture&amp;quot; allowfullscreen style=&amp;quot;position:absolute;top:0;left:0;width:100%;height:100%;&amp;quot; title=&amp;quot;Jam19S1&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script src=&amp;quot;&lt;a href=&#34;https://player.vimeo.com/api/player.js&#34;&gt;https://player.vimeo.com/api/player.js&lt;/a&gt;&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/p&gt;
+&lt;div style=&#34;padding:56.25% 0 0 0;position:relative;&#34;&gt;&lt;iframe src=&#34;https://player.vimeo.com/video/827768385?h=5eedee871a&amp;amp;badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; fullscreen; picture-in-picture&#34; allowfullscreen style=&#34;position:absolute;top:0;left:0;width:100%;height:100%;&#34; title=&#34;Jam19S1&#34;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src=&#34;https://player.vimeo.com/api/player.js&#34;&gt;&lt;/script&gt;
 </content>
         <updated>2024-10-05T20:54:17.583Z</updated>
     </entry>
